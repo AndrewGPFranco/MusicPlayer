@@ -1,0 +1,12 @@
+.photograph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photograph img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
