@@ -1,13 +1,13 @@
 import Menu from '../components/Global/Menu.jsx';
 
 
-const Games = () => {
+const Common = () => {
   return (
     <div>
       <Menu />
-      <h1>Welcome to Games!</h1>
+      <h1>Welcome to Common!</h1>
     </div>
   )
 }
 
-export default Games;
+export default Common;

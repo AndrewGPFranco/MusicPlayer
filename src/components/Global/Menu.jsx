@@ -3,6 +3,7 @@ import style from "./Menu.module.css";
 import iconHome from "../../assets/home.png";
 import iconAll from "../../assets/all.png";
 import iconGames from "../../assets/games.png";
+import iconCommon from "../../assets/music.png";
 
 const Menu = () => {
   return (
@@ -14,11 +15,15 @@ const Menu = () => {
         </li>
         <li>
           <img src={iconAll} alt="Logo de uma Casa Residencial" />
-          <Link to="/music">Music</Link>
+          <Link to="/songs">Songs</Link>
         </li>
         <li>
           <img src={iconGames} alt="Logo de uma Casa Residencial" />
-          <Link to="/games">Gamer</Link>
+          <Link to="/songs/games">Gamer</Link>
+        </li>
+        <li>
+          <img src={iconCommon} alt="Logo de uma Casa Residencial" />
+          <Link to="/songs/common">Common</Link>
         </li>
       </ul>
     </div>
