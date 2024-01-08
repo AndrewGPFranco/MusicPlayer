@@ -14,11 +14,11 @@ const Menu = () => {
         </li>
         <li>
           <img src={iconAll} alt="Logo de uma Casa Residencial" />
-          <Link to="/tv">Music</Link>
+          <Link to="/music">Music</Link>
         </li>
         <li>
           <img src={iconGames} alt="Logo de uma Casa Residencial" />
-          <Link to="/camisas">Gamer</Link>
+          <Link to="/games">Gamer</Link>
         </li>
       </ul>
     </div>
