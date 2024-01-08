@@ -11,7 +11,7 @@ const Navbar = () => {
           <Link to="/perfil"><img src={perfil} alt="Imagem de Perfil do Usuário" /></Link>
         </div>
         <div className={style.about}>
-          <img className={style.dot} src={dot} alt="Icone de três pontinhos" />
+          <Link to="/about"><img className={style.dot} src={dot} alt="Icone de três pontinhos" /></Link>
         </div>
       </nav>
     </>
