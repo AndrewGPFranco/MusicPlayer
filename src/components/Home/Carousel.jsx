@@ -5,7 +5,7 @@ import musicthree from "../../assets/musicthree.jpg";
 const Carousel = () => {
   return (
     <>
-      <div>
+      <div className="px-3">
         <div id="carouselExampleIndicators" className="carousel slide">
           <div className="carousel-indicators">
             <button
@@ -34,7 +34,7 @@ const Carousel = () => {
               <img
                 style={{ height: "300px" }}
                 src={musicone}
-                className="d-block w-100"
+                className="d-block w-100 imageCarousel"
                 alt="Slide 1"
               />
             </div>
@@ -42,7 +42,7 @@ const Carousel = () => {
               <img
                 style={{ height: "300px" }}
                 src={musictwo}
-                className="d-block w-100"
+                className="d-block w-100 imageCarousel"
                 alt="Slide 2"
               />
             </div>
@@ -50,7 +50,7 @@ const Carousel = () => {
               <img
                 style={{ height: "300px" }}
                 src={musicthree}
-                className="d-block w-100"
+                className="d-block w-100 imageCarousel"
                 alt="Slide 3"
               />
             </div>
