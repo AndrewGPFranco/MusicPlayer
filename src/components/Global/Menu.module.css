@@ -1,0 +1,32 @@
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 20px;
+    padding: 15px;
+    /* background-color: #000000cb; */
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 7px;
+    margin: 7px;
+}
+
+.menu ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu ul li a {
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.menu img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
