@@ -30,3 +30,8 @@
     height: 25px;
     cursor: pointer;
 }
+
+.active {
+  border-bottom: 3px solid cyan;
+  /*border-radius: 10px;*/
+}
