@@ -2,12 +2,10 @@ import Menu from "../components/Global/Menu.jsx";
 import { useState } from "react";
 
 const Music = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
   const music = new Audio("../../public/sounds/couting.mp3");
 
-  let playMusic = () => {
+  const playMusic = () => {
     music.play();
-    setIsPlaying(true);
   };
   
   return (
