@@ -9,18 +9,12 @@ const Music = () => {
     music.play();
     setIsPlaying(true);
   };
-
-  let pauseMusic = () => {
-    music.pause();
-    setIsPlaying(false);
-  };
   
   return (
     <div>
       <Menu />
       <h1>Welcome to Music!</h1>
       <button onClick={playMusic}>Play</button>
-      <button onClick={pauseMusic}>Pause</button>
     </div>
   );
 };
