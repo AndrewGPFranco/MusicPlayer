@@ -1,6 +1,7 @@
 .card {
   display: flex;
   margin-top: 20px;
+  margin-left: -15px;
   overflow-x: scroll;
   scroll-behavior: smooth;
   scrollbar-color: transparent transparent;
@@ -20,4 +21,8 @@
 
 .card ul li {
   list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
 }
