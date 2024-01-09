@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import style from "./Card.module.css";
 
 const Card = () => {
   const [jsonData, setJsonData] = useState(null);
@@ -17,12 +18,13 @@ const Card = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Renderizando Dados JSON com React</h1>
+    <div className={style.card}>
       {jsonData && (
         <ul>
           {jsonData.map((item, index) => (
-            <li key={index}>{item.category}</li>
+            <li key={index}>
+              <img src={item.image} alt={`Imagem da categoria ${item.category}`} />
+            </li>
           ))}
         </ul>
       )}

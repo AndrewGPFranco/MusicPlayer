@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  margin-top: 20px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-color: transparent transparent;
+}
+
+.card ul {
+  display: flex;
+  gap: 15px;
+  margin: 0;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.card ul li {
+  list-style: none;
+}
