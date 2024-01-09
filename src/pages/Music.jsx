@@ -1,4 +1,4 @@
-import Menu from '../components/Global/Menu.jsx';
+import Menu from "../components/Global/Menu.jsx";
 
 const Music = () => {
   return (
@@ -6,7 +6,7 @@ const Music = () => {
       <Menu />
       <h1>Welcome to Music!</h1>
     </div>
-  )
-}
+  );
+};
 
 export default Music;
