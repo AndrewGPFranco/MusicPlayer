@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
-import { Link } from 'react-router-dom';
+import { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
+import { Link } from "react-router-dom";
 import perfil from "../../assets/perfil.jpg";
 import style from "./ModalComponent.module.css";
 

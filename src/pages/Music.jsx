@@ -1,5 +1,4 @@
 import Menu from "../components/Global/Menu.jsx";
-import { useState } from "react";
 
 const Music = () => {
   const music = new Audio("../../public/sounds/couting.mp3");
