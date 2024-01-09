@@ -8,10 +8,18 @@ const Navbar = () => {
     <>
       <nav className={style.navbar}>
         <div className={style.perfil}>
-          <Link to="/perfil"><img src={perfil} alt="Imagem de Perfil do Usuário" /></Link>
+          <Link to="/perfil">
+            <img src={perfil} alt="Imagem de Perfil do Usuário" />
+          </Link>
         </div>
         <div className={style.about}>
-          <Link to="/about"><img className={style.dot} src={dot} alt="Icone de três pontinhos" /></Link>
+          <Link to="/about">
+            <img
+              className={style.dot}
+              src={dot}
+              alt="Icone de três pontinhos"
+            />
+          </Link>
         </div>
       </nav>
     </>
