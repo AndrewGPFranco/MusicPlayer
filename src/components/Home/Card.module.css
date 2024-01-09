@@ -5,6 +5,7 @@
   overflow-x: scroll;
   scroll-behavior: smooth;
   scrollbar-color: transparent transparent;
+  margin-right: 15px;
 }
 
 .card ul {
