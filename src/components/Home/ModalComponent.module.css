@@ -5,3 +5,17 @@
   cursor: pointer;
   object-fit: cover;
 }
+
+.body {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.body img {
+  width: 60px;
+  heigth: 60px;
+  border-radius: 40%;
+}
