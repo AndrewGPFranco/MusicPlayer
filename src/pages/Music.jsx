@@ -1,4 +1,5 @@
 import Menu from "../components/Global/Menu.jsx";
+import play from "../assets/play.png";
 
 const Music = () => {
   const music = new Audio("../../public/sounds/couting.mp3");
@@ -8,10 +9,12 @@ const Music = () => {
   };
   
   return (
-    <div>
+    <div className="containerMusic">
       <Menu />
-      <h1>Welcome to Music!</h1>
-      <button onClick={playMusic}>Play</button>
+      <h1>Press to listen to your music!</h1>
+      <button className="btnPlay2" onClick={playMusic}>
+        <img className="btnPlay" src={play} alt="Icone de Play" />
+      </button>
     </div>
   );
 };
