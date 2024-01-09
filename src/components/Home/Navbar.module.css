@@ -5,14 +5,6 @@
   align-items: center;
 }
 
-.perfil img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  cursor: pointer;
-  object-fit: cover;
-}
-
 .about img {
   width: 30px;
   height: 30px;

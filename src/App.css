@@ -16,3 +16,8 @@ a {
   background-color: #005706;
   height: 120px;
 }
+
+.btn {
+  background-color: transparent;
+  border: none;
+}
