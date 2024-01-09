@@ -1,0 +1,22 @@
+[
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROUS4hlWYCx8k1Kym1x1CQJ7I94d7f6WUL7A&usqp=CAU",
+    "category": "Rock"
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHl0zxRQE5diTSbin5mJgNyCXXQiTErpS-tw&usqp=CAU",
+    "category": "POP"
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjs5ghGUoLaLhzgTAwnsYQJNtephyW7BLVIg&usqp=CAU",
+    "category": "Sertanejo"
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpBSzhTagaGH5n3TXwlvd8Y9CdCuGnDaom4A&usqp=CAU",
+    "category": "RAP"
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAAUcog2Zq1RG4x0P30b3sq8VOmQbkbFFtbg&usqp=CAU",
+    "category": "RAP GAMER"
+  }
+]
