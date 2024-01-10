@@ -6,7 +6,7 @@ const Card = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("../../../public/categoryHome.json");
+        const response = await fetch("/categoryHome.json");
         const data = await response.json();
         setJsonData(data);
       } catch (error) {
@@ -23,7 +23,10 @@ const Card = () => {
         <ul>
           {jsonData.map((item, index) => (
             <li key={index}>
-              <img src={item.image} alt={`Imagem da categoria ${item.category}`} />
+              <img
+                src={item.image}
+                alt={`Imagem da categoria ${item.category}`}
+              />
             </li>
           ))}
         </ul>
