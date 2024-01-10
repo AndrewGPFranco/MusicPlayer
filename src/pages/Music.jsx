@@ -7,7 +7,7 @@ const Music = () => {
   const music = new Audio("/sounds/couting.mp3");
 
   const togglePlay = () => {
-    if (isPlaying) {
+    if (!isPlaying) {
       music.pause();
       setIsPlaying(false);
     } else {
