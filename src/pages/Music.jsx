@@ -8,11 +8,11 @@ const Music = () => {
 
   const togglePlay = () => {
     if (!isPlaying) {
-      music.pause();
-      setIsPlaying(false);
-    } else {
       music.play();
       setIsPlaying(true);
+    } else {
+      music.pause();
+      setIsPlaying(false);
     }
   }
   
