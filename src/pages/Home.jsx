@@ -3,7 +3,7 @@ import Carousel from '../components/Home/Carousel.jsx';
 import Navbar from '../components/Home/Navbar.jsx';
 import Card from '../components/Home/Card.jsx';
 
-const Home = () => {
+function Home() {
   return (
     <div>
       <Navbar />

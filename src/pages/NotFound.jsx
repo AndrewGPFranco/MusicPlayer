@@ -1,6 +1,6 @@
 import Texto from "../components/NotFound/Texto.jsx";
 
-const NotFound = () => {
+function NotFound() {
   return (
     <main>
       <Texto />

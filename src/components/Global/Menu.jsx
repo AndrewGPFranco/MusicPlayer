@@ -5,7 +5,7 @@ import iconAll from "../../assets/all.png";
 import iconGames from "../../assets/games.png";
 import iconCommon from "../../assets/music.png";
 
-const Menu = () => {
+function Menu () {
   const location = useLocation();
 
   return (

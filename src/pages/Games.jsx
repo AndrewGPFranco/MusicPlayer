@@ -1,7 +1,6 @@
 import Menu from '../components/Global/Menu.jsx';
 
-
-const Games = () => {
+function Games() {
   return (
     <div>
       <Menu />

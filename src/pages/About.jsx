@@ -1,6 +1,6 @@
 import Menu from '../components/Global/Menu.jsx';
 
-const About = () => {
+function About() {
   return (
     <div>
       <h1>Page About</h1>

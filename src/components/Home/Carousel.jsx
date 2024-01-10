@@ -2,7 +2,7 @@ import musicone from "../../assets/musicone.jpeg";
 import musictwo from "../../assets/musictwo.jpeg";
 import musicthree from "../../assets/musicthree.jpg";
 
-const Carousel = () => {
+function Carousel() {
   return (
     <>
       <div className="px-3">

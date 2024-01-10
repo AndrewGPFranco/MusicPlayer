@@ -1,7 +1,6 @@
 import Menu from '../components/Global/Menu.jsx';
 
-
-const Common = () => {
+function Common() {
   return (
     <div>
       <Menu />

@@ -2,7 +2,7 @@ import Menu from "../components/Global/Menu.jsx";
 import play from "../assets/play.png";
 import { useState } from "react";
 
-const Music = () => {
+function Music() {
   const [isPlaying, setIsPlaying] = useState(false);
   const music = new Audio("/sounds/couting.mp3");
 

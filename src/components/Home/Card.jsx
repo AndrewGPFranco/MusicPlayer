@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import style from "./Card.module.css";
 
-const Card = () => {
+function  Card() {
   const [jsonData, setJsonData] = useState(null);
   useEffect(() => {
     const fetchData = async () => {

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Texto.module.css";
 
-const Texto = () => {
+function Texto() {
   return (
     <>
       <div className={styles.notfound}>

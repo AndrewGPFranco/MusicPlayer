@@ -3,7 +3,7 @@ import ModalComponent from "./ModalComponent.jsx";
 import { Link } from "react-router-dom";
 import dot from "../../assets/dot.svg";
 
-const Navbar = () => {
+function Navbar() {
   return (
     <>
       <nav className={style.navbar}>
