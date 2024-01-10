@@ -6,14 +6,14 @@ const Music = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const music = new Audio("/sounds/couting.mp3");
 
-  let playMusic = () => {
-    music.play();
-    setIsPlaying(true);
-  };
-
-  let pauseMusic = () => {
-    music.pause();
-    setIsPlaying(false);
+  const togglePlay = () => {
+    if (isPlaying) {
+      music.pause();
+      setIsPlaying(false);
+    } else {
+      music.play();
+      setIsPlaying(true);
+    }
   }
   
   return (
@@ -21,10 +21,9 @@ const Music = () => {
       <Menu />
       <h1>Press to listen</h1>
       <h1>to your music!</h1>
-      <button className="btnPlay2" onClick={playMusic}>
+      <button className="btnPlay2" onClick={togglePlay}>
         <img className="btnPlay" src={play} alt="Icone de Play" />
       </button>
-      <button className="btnPause2" onClick={pauseMusic}>Pause</button>
     </div>
   );
 };
