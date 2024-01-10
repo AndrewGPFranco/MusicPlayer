@@ -1,10 +1,12 @@
 import Menu from "../components/Global/Menu.jsx";
 import play from "../assets/play.png";
-import { useState } from "react";
+import { useState } from "react"
+import ReactPlayer from 'react-player';
 
 const Music = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const music = new Audio("/sounds/couting.mp3");
+  const url = ("/sounds/couting.mp3");
 
   const togglePlay = () => {
     if (!isPlaying) {
@@ -24,6 +26,7 @@ const Music = () => {
       <button className="btnPlay2" onClick={togglePlay}>
         <img className="btnPlay" src={play} alt="Icone de Play" />
       </button>
+      <ReactPlayer url={url} controls />
     </div>
   );
 };
