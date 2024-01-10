@@ -2,7 +2,7 @@ import Menu from "../components/Global/Menu.jsx";
 import play from "../assets/play.png";
 
 const Music = () => {
-  const music = new Audio("../../public/sounds/couting.mp3");
+  const music = new Audio("/sounds/couting.mp3");
 
   const playMusic = () => {
     music.play();
