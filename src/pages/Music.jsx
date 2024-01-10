@@ -6,12 +6,12 @@ const Music = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const music = new Audio("/sounds/couting.mp3");
 
-  const playMusic = () => {
+  let playMusic = () => {
     music.play();
     setIsPlaying(true);
   };
 
-  const pauseMusic = () => {
+  let pauseMusic = () => {
     music.pause();
     setIsPlaying(false);
   }
