@@ -4,6 +4,7 @@ import Navbar from '../components/Home/Navbar.jsx';
 import Card from '../components/Home/Card.jsx';
 import Title from '../components/Global/Title.jsx';
 import Moment from '../components/Home/Moment.jsx';
+import FamousSingers from '../components/Home/FamousSingers.jsx';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Menu />
       <Title title="Music of the Moment " />
       <Moment />
+      <FamousSingers />
     </div>
   )
 }

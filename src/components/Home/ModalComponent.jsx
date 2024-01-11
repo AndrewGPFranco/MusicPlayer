@@ -19,19 +19,13 @@ function ModalComponent() {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>User Profile</Modal.Title>
+          <Modal.Title>Devfy, Your Music App</Modal.Title>
         </Modal.Header>
         <div className={style.body}>
           <img src={perfil} alt="Foto de Perfil" />
           <h2>Andrew Silva</h2>
         </div>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save
-          </Button>
           <Link to="perfil">Access Profile</Link>
         </Modal.Footer>
       </Modal>
