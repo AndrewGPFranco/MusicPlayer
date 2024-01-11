@@ -17,15 +17,19 @@ function Music() {
   };
 
   return (
-    <div className="containerMusic">
-      <Menu />
-      <h1>Press to listen</h1>
-      <h1>to your music!</h1>
+    <div className="card">
+      <div className="card-border-top"></div>
+      <div className="img">
+        <img src="https://i.scdn.co/image/ab67616d0000b273bde319f49b9079c727c46410" alt="Capa da Música" />
+      </div>
+      <span>James Arthur</span>
+      <p className="job">Counting my Blessings</p>
       <button className="btnPlay2" onClick={togglePlay}>
         <img className="btnPlay" src={play} alt="Icone de Play" />
       </button>
+      <Menu />
     </div>
   );
-};
+}
 
 export default Music;
