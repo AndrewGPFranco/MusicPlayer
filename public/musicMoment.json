@@ -1,5 +1,15 @@
 [
     {
+        "image": "https://realworldmusictheory.com/content/images/2021/01/Taylor-Swift-blank-space.jpg",
+        "singer": "Taylor Swift",
+        "music": "Blank Space"
+    },
+    {
+        "image": "https://i.scdn.co/image/ab67616d0000b273bde319f49b9079c727c46410",
+        "singer": "James Arthur",
+        "music": "Car's Outside"
+    },
+    {
         "image": "https://cdns-images.dzcdn.net/images/cover/92af2d67c98b18f0931441ea23e88ae9/500x500.jpg",
         "singer": "Seth Schlueter",
         "music": "Counting my Blessings "

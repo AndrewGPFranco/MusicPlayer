@@ -2,13 +2,15 @@
     margin-bottom: 200px;
     display: flex;
     flex-direction: column;
+    justify-content: left;
+    margin-top: 15px;
 }
 
 .music img {
-    width: 50px;
+    width: 70px;
     border-radius: 50%;
-    height: 50px;
-    margin-right: 10px;
+    height: 70px;
+    margin-right: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -23,6 +25,7 @@
 .music ul {
     display: flex;
     justify-content: left;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -33,5 +36,9 @@
 }
 
 .info h3 {
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.info p {
+    font-size: 16px;
 }
