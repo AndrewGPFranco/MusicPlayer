@@ -1,9 +1,10 @@
 .music {
-    margin-bottom: 200px;
+    margin-bottom: 88px;
     display: flex;
     flex-direction: column;
     justify-content: left;
     margin-top: 15px;
+    align-items: center;
 }
 
 .music img {
