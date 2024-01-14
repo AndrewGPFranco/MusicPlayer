@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+    align-items: center;
+}
+
+.container img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.infos {
+    margin-left: -20px;
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
