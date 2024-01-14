@@ -5,7 +5,7 @@
     "artist": "Ed Sheeran",
     "image": "https://cdns-images.dzcdn.net/images/cover/007b5e41dae0dd99ade00f509db734d4/350x350.jpg",
     "category": "Pop",
-    "audio": "/sounds/counting.mp3"
+    "audio": "/sounds/perfect.mp3"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "artist": "Ed Sheeran",
     "image": "https://i1.sndcdn.com/artworks-hHRNAPyoL1gTPNV7-mUwz9A-t500x500.jpg",
     "category": "Pop",
-    "audio": "/sounds/counting.mp3"
+    "audio": "/sounds/shapeofyou.mp3"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "artist": "Ed Sheeran",
     "image": "https://i1.sndcdn.com/artworks-000102864051-o1akzp-t500x500.jpg",
     "category": "Pop",
-    "audio": "/sounds/counting.mp3"
+    "audio": "/sounds/thinkingoutloud.mp3"
   },
   {
     "id": 5,
@@ -37,6 +37,6 @@
     "artist": "Marshmello",
     "image": "https://i.scdn.co/image/ab67616d0000b27304bfd5a5fd5aa6ca648f66aa",
     "category": "Pop",
-    "audio": "/sounds/counting.mp3"
+    "audio": "/sounds/happier.mp3"
   }
 ]

@@ -27,9 +27,11 @@ function Music() {
                   </div>
                 </div>
             </Link>
-            <div className={style.imagem}>
-              <img src={dot} alt="Imagem" />
-            </div>
+            <Link to={`/music/${sound.id}`} state={{sound}}>
+              <div className={style.imagem}>
+                <img src={dot} alt="Imagem" />
+              </div>
+            </Link>
           </div>
         );
       })}
