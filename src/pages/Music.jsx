@@ -1,5 +1,6 @@
 import Menu from "../components/Global/Menu.jsx";
 import play from "../assets/play.png";
+import pause from "../assets/pause.png";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -33,7 +34,13 @@ function Music() {
       <span>{sound.artist}</span>
       <p className="job">{sound.title}</p>
       <button className="btnPlay2" onClick={togglePlay}>
-        <img className="btnPlay" src={play} alt="Icone de Play" />
+        {
+          isPlaying ? (
+            <img className="btnPlay" src={pause} alt="Icone de Pause" />
+          ) : (
+            <img className="btnPlay" src={play} alt="Icone de Play" />
+          )
+        }
       </button>
       <Menu />
     </div>
