@@ -34,13 +34,11 @@ function Music() {
       <span>{sound.artist}</span>
       <p className="job">{sound.title}</p>
       <button className="btnPlay2" onClick={togglePlay}>
-        {
-          isPlaying ? (
-            <img className="btnPlay" src={pause} alt="Icone de Pause" />
-          ) : (
-            <img className="btnPlay" src={play} alt="Icone de Play" />
-          )
-        }
+        {isPlaying ? (
+          <img className="btnPlay" src={pause} alt="Icone de Pause" />
+        ) : (
+          <img className="btnPlay" src={play} alt="Icone de Play" />
+        )}
       </button>
       <Menu />
     </div>
