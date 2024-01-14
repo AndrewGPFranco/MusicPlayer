@@ -4,6 +4,7 @@ import iconHome from "../../assets/home.png";
 import iconAll from "../../assets/all.png";
 import iconGames from "../../assets/games.png";
 import iconCommon from "../../assets/music.png";
+import iconAbout from "../../assets/about.png";
 
 function Menu() {
   const location = useLocation();
@@ -28,7 +29,7 @@ function Menu() {
         <li
           className={location.pathname === "/about" ? style.active : ""}
         >
-          <img src={iconGames} alt="Logo de uma Casa Residencial" />
+          <img src={iconAbout} alt="Logo de uma Casa Residencial" />
           <Link to="/about">About</Link>
         </li>
       </ul>
