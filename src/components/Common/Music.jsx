@@ -11,7 +11,7 @@ function Music() {
       {sounds.map((sound) => {
         return (
           <div className={style.container} key={sound.id}>
-            <Link to={`/songs/${sound.id}`}>
+            <Link to={`/songs/${sound.id}`} state={{ sound }}>
                 <div className={style.containerInfos}>
                   <div className={style.infosImagem}>
                     <img src={sound.image} alt="Imagem" />

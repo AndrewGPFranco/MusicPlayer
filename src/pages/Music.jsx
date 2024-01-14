@@ -1,10 +1,18 @@
 import Menu from "../components/Global/Menu.jsx";
 import play from "../assets/play.png";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 function Music() {
+  const location = useLocation();
+  const { sound } = location.state || {};
+
   const [isPlaying, setIsPlaying] = useState(false);
-  const music = new Audio("/sounds/couting.mp3");
+  const [music, setMusic] = useState(new Audio("/sounds/counting.mp3"));
+
+  useEffect(() => {
+    setMusic(new Audio(sound.audio));
+  }, [sound]);
 
   const togglePlay = () => {
     if (!isPlaying) {
@@ -20,10 +28,10 @@ function Music() {
     <div className="card">
       <div className="card-border-top"></div>
       <div className="img">
-        <img src="https://i.scdn.co/image/ab67616d0000b273bde319f49b9079c727c46410" alt="Capa da Música" />
+        <img src={sound.image} alt="Capa da Música" />
       </div>
-      <span>James Arthur</span>
-      <p className="job">Counting my Blessings</p>
+      <span>{sound.artist}</span>
+      <p className="job">{sound.title}</p>
       <button className="btnPlay2" onClick={togglePlay}>
         <img className="btnPlay" src={play} alt="Icone de Play" />
       </button>
