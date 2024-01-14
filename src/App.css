@@ -134,6 +134,7 @@ li {
   align-items: center;
   flex-direction: column;
   padding: 30px;
+  margin-top: 10px;
 }
 
 .AboutMusicInfos h1 {
