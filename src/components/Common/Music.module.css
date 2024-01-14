@@ -33,12 +33,17 @@
     height: 40px;
 }
 
+.imagem img {
+    cursor: pointer;
+}
+
 .infosTitle h3 {
     font-size: 20px;
 }
 
 .infosTitle p {
     font-size: 15px;
+    font-weight: 600;
     color: #2c2c2c;
 }
 
@@ -48,7 +53,7 @@
 }
 
 .scan {
-    background-color: blueviolet;
+    background-color: gray;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;

@@ -11,7 +11,9 @@ function Common() {
         <Title title="Favorites" />
       </div>
       <Music />
-      <Menu />
+      <div className="menu">
+        <Menu />
+      </div>
     </div>
   )
 }
