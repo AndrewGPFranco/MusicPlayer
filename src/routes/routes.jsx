@@ -11,7 +11,7 @@ const AppRoutes = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/songs" element={<Music />}></Route>
+        {/* <Route path="/songs" element={<Music />}></Route> */}
         <Route path="/songs/common" element={<Common />}></Route>
         <Route path="/perfil" element={<Perfil />}></Route>
         <Route path="/about" element={<About />}></Route>
