@@ -13,7 +13,7 @@ function About() {
       </div>
       <Carousel />
       <Information />
-      <div className='menu'>
+      <div className='menuAbout'>
         <Menu />
       </div>
     </div>
