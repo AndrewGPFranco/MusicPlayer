@@ -8,15 +8,15 @@ export default function Information() {
         <div className={style.information}>
             <div className={style.container}>
                 <img src={clock} alt="Clock" />
-                <p>One week to developer!</p>
+                <p><scan className={style.scan}>One week</scan> to develop!</p>
             </div>
             <div className={style.container}>
                 <img src={settings} alt="Settings" />
-                <p>Developer in Repl.it and Vs Code!</p>
+                <p>Developed in <scan className={style.scan}>Replit</scan> and <scan className={style.scan}>Vs Code</scan>!</p>
             </div>
             <div className={style.container}>
                 <img src={right} alt="Right" />
-                <p>All Right Reserved to Andrew Silva!</p>
+                <p>All Right Reserved to <scan className={style.scan}>Andrew Silva</scan>!</p>
             </div>
         </div>
     )
