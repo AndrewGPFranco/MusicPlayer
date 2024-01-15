@@ -1,0 +1,6 @@
+.container img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}

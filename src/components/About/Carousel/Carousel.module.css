@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container button {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.container button img {
+    width: 30px;
+    height: 30px;
+}
+
+.container img {
+    width: 70%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all 0.5s ease;
+}
