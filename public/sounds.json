@@ -54,5 +54,29 @@
     "image": "https://i1.sndcdn.com/artworks-yID3NkS2T7Si-0-t500x500.jpg",
     "category": "Pop",
     "audio": "/sounds/cars.mp3"
+  },
+  {
+    "id": 8,
+    "title": "Mercy",
+    "artist": "Shawn Mendes",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733b9893eec2c110a30526b318",
+    "category": "Pop",
+    "audio": "/sounds/mercy.mp3"
+  },
+  {
+    "id": 9,
+    "title": "Até Que Durou",
+    "artist": "Pericles",
+    "image": "https://i.scdn.co/image/ab67616d00001e022d26d25a6139de0b87ac0e78",
+    "category": "Samba",
+    "audio": "/sounds/atequedurou.mp3"
+  },
+  {
+    "id": 10,
+    "title": "Ponto Fraco",
+    "artist": "Thiaguinho",
+    "image": "https://i.scdn.co/image/ab67616d0000b27317b56fa09e88cd611c711b7a",
+    "category": "Samba",
+    "audio": "/sounds/pontofraco.mp3"
   }
 ]
