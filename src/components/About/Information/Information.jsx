@@ -11,7 +11,7 @@ export default function Information() {
             </div>
             <div className={style.container}>
                 <img src={settings} alt="Settings" />
-                <p>Developer in Repl.it and Vs.</p>
+                <p>Developer in Repl.it and Vs Code!</p>
             </div>
         </div>
     )
