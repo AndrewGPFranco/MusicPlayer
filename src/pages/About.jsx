@@ -8,10 +8,14 @@ function About() {
   return (
     <div>
       <Navbar />
-      <Title title="Technologies Used" />
+      <div className='title'>
+        <Title title="Technologies Used" />
+      </div>
       <Carousel />
       <Information />
-      <Menu />
+      <div className='menu'>
+        <Menu />
+      </div>
     </div>
   )
 }
