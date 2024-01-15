@@ -26,7 +26,7 @@ function ModalComponent() {
           <h2>Andrew Silva</h2>
         </div>
         <Modal.Footer>
-          <Link to="perfil">Access Profile</Link>
+          <Link to="profile">Access Profile</Link>
         </Modal.Footer>
       </Modal>
     </div>

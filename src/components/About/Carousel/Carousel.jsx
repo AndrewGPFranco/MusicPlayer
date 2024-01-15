@@ -7,7 +7,7 @@ export default function Carousel() {
   const certificateImages = [
     'https://wallpapercave.com/wp/wp2465923.jpg',
     'https://c4.wallpaperflare.com/wallpaper/241/580/981/css-css3-wallpaper-preview.jpg',
-    'https://e1.pxfuel.com/desktop-wallpaper/857/328/desktop-wallpaper-html-5-html-thumbnail.jpg'
+    'https://edrodrigues.com.br/wp-content/uploads/2023/01/como-construir-otimos-controles-de-formulario-html.png'
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
