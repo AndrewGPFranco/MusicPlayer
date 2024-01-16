@@ -10,7 +10,7 @@ function FamousSingers() {
       <div>
         <Title title="Geek's Singers" />
       </div>
-      <div>
+      <div className={style.images}>
         <img src={enygma} alt="Imagem do Artista" />
         <img src={basara} alt="Imagem do Artista" />
         <img src={tauz} alt="Imagem do Artista" />

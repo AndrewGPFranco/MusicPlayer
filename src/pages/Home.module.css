@@ -1,0 +1,15 @@
+@media screen and (min-width: 1280px) {
+  .Carousel {
+    display: none;
+  } 
+
+  .titleMoments {
+    display: flex;
+    justify-content: center;
+  }
+
+  .titleStyles {
+    display: flex;
+    justify-content: center;
+  }
+}

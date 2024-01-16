@@ -5,16 +5,23 @@ import Card from "../components/Home/Card.jsx";
 import Title from "../components/Global/Title.jsx";
 import Moment from "../components/Home/Moment.jsx";
 import FamousSingers from "../components/Home/FamousSingers.jsx";
+import style from "./Home.module.css";
 
 function Home() {
   return (
     <div>
       <Navbar />
-      <Carousel />
-      <Title title="Styles Available" />
+      <div className={style.Carousel}>
+        <Carousel />
+      </div>
+      <div className={style.titleStyles}>
+        <Title title="Styles Available" />
+      </div>
       <Card />
       <Menu />
-      <Title title="Music of the Moment " />
+      <div className={style.titleMoments}>
+        <Title title="Music of the Moment " />
+      </div>
       <Moment />
       <FamousSingers />
     </div>
