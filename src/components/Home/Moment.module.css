@@ -44,3 +44,11 @@
 .info p {
     font-size: 17px;
 }
+
+/* Desktop version */
+
+@media screen and (min-width: 1280px) {
+    .music ul {
+        gap: 50px;
+    }
+}

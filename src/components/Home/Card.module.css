@@ -27,3 +27,16 @@
 ::-webkit-scrollbar {
   width: 12px;
 }
+
+@media screen and (min-width: 1280px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .card img {
+    width: 200px;
+    height: 200px;
+  }
+}

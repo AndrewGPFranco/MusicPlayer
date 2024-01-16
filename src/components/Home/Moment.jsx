@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import style from "./Moment.module.css";
+import Title from "../Global/Title";
 
 function Moment() {
   const [jsonData, setJsonData] = useState(null);
