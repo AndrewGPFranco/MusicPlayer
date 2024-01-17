@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Anton&family=Bebas+Neue&family=Bree+Serif&family=Kanit&family=Oswald:wght@400;500&family=Passion+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Anton&family=Bebas+Neue&family=Bree+Serif&family=Kanit&family=Oswald:wght@400;500&family=Passion+One&display=swap");
 
 * {
   padding: 0;
@@ -51,43 +51,43 @@ li {
 }
 
 .card {
- width: auto;
- height: auto;
- background: #3405a3;
- border-radius: 15px;
- box-shadow: 1px 5px 60px 0px #100a886b;
+  width: auto;
+  height: auto;
+  background: #3405a3;
+  border-radius: 15px;
+  box-shadow: 1px 5px 60px 0px #100a886b;
   margin: 50px;
   padding-bottom: 30px;
 }
 
 .card .card-border-top {
- width: 60%;
- height: 3%;
- background: #2b2596;
- margin: auto;
- border-radius: 0px 0px 15px 15px;
+  width: 60%;
+  height: 3%;
+  background: #2b2596;
+  margin: auto;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .card span {
- font-weight: 600;
- color: white;
- text-align: center;
- display: block;
- padding-top: 10px;
- font-size: 20px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 20px;
 }
 
 .card .job {
- font-weight: 400;
- color: white;
- display: block;
- text-align: center;
- font-size: 17px;
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 17px;
 }
 
 .card .img {
- margin: auto;
- margin-top: 25px;
+  margin: auto;
+  margin-top: 25px;
 }
 
 .card .img img {
@@ -99,19 +99,19 @@ li {
 }
 
 .card button {
- padding: 8px 25px;
- display: block;
- margin: auto;
- border-radius: 8px;
- border: none;
- margin-top: 30px;
- background: #6b64f3;
- color: white;
- font-weight: 600;
+  padding: 8px 25px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  background: #6b64f3;
+  color: white;
+  font-weight: 600;
 }
 
 .card button:hover {
- background: #534bf3;
+  background: #534bf3;
 }
 
 .img img {
@@ -153,13 +153,13 @@ li {
 }
 
 .AboutMusicInfos h1 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 50px;
   color: #3405a3;
 }
 
 .AboutMusicInfos h2 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 30px;
   color: #005e94;
 }
@@ -179,5 +179,5 @@ li {
   padding: 10px;
   color: #ffffff;
   font-size: 20px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }

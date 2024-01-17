@@ -16,10 +16,10 @@ function Menu() {
           <img src={iconHome} alt="Logo de uma Casa Residencial" />
           <Link to="/">Home</Link>
         </li>
-        {/* <li className={location.pathname === "/songs" ? style.active : ""}>
+        <li className={location.pathname === "/profile" ? style.active : ""}>
           <img src={iconAll} alt="Logo de uma Casa Residencial" />
-          <Link to="/songs">Songs</Link>
-        </li> */}
+          <Link to="/profile">Profile</Link>
+        </li>
         <li
           className={location.pathname === "/songs/common" ? style.active : ""}
         >
