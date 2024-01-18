@@ -1,10 +1,12 @@
-import Photograph from "../components/Perfil/Photograph";
 import Menu from '../components/Global/Menu';
+import Banner from "../components/Perfil/Banner/Banner";
+import Container from '../components/Perfil/Container/Container';
 
 function Perfil() {
   return (
     <div className="containerPerfil">
-      <Photograph />
+      <Banner />
+      <Container />
       <Menu />
     </div>
   )
