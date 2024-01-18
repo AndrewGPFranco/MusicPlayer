@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    gap: 10px;
+}
+
+.btnFollow {
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 17px;
+    background-color: #E9E9E9;
+    border: none;
+}
+
+.btnMessage {
+    background-color: #0CC0DF;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 17px;
+    border: none;
+}

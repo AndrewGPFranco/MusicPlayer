@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container h2 {
+    font-family: 'Space Mono', monospace;
+    margin-bottom: -1px;
+    font-size: 22px;
+}
