@@ -9,10 +9,9 @@ export default function About() {
         apreço pelo frontend e o coração no backend! Minhas habilidades no
         Front-End abrangem HTML, CSS, JavaScript, React Js, Vue, Bootstrap e
         Tailwind enquanto no Back-End, meus domínios são em PHP, Java, Laravel e
-        Spring. Possuo conhecimentos abrangentes em Docker e banco de dados
-        MySQL, PostgreSQL e sou altamente capacitado em versionamento com o Git
-        e GitHub.F
+        Spring.
       </p>
+      <div className={style.without}></div>
     </div>
   );
 }
