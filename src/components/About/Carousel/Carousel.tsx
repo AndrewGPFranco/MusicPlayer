@@ -7,6 +7,7 @@ export default function Carousel() {
   const certificateImages = [
     'https://wallpapercave.com/wp/wp2465923.jpg',
     'https://dkrn4sk0rn31v.cloudfront.net/uploads/2021/10/tipagem-no-typescript.png',
+    'https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-social.png',
     'https://c4.wallpaperflare.com/wallpaper/241/580/981/css-css3-wallpaper-preview.jpg',
     'https://edrodrigues.com.br/wp-content/uploads/2023/01/como-construir-otimos-controles-de-formulario-html.png'
   ];
