@@ -1,4 +1,4 @@
-import Menu from "../components/Global/Menu.jsx";
+import Menu from "../components/Global/Menu";
 import play from "../assets/play.png";
 import pause from "../assets/pause.png";
 import { useState, useEffect } from "react";

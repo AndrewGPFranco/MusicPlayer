@@ -1,11 +1,11 @@
-import Home from "../pages/Home.jsx";
-import Music from "../pages/Music.jsx";
-import Common from "../pages/Common.jsx";
-import Perfil from "../pages/Perfil.jsx";
-import About from "../pages/About.jsx";
-import NotFound from "../pages/NotFound.jsx";
+import Home from "../pages/Home.tsx";
+import Music from "../pages/Music.tsx";
+import Common from "../pages/Common.tsx";
+import Perfil from "../pages/Perfil.tsx";
+import About from "../pages/About.tsx";
+import NotFound from "../pages/NotFound.tsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import AboutMusic from "../pages/AboutMusic.jsx";
+import AboutMusic from "../pages/AboutMusic.tsx";
 
 const AppRoutes = () => {
   return (

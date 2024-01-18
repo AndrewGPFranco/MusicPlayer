@@ -1,5 +1,5 @@
-import Photograph from "../components/Perfil/Photograph.jsx";
-import Menu from '../components/Global/Menu.jsx';
+import Photograph from "../components/Perfil/Photograph";
+import Menu from '../components/Global/Menu';
 
 function Perfil() {
   return (

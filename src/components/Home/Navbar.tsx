@@ -1,5 +1,5 @@
 import style from "./Navbar.module.css";
-import ModalComponent from "./ModalComponent.jsx";
+import ModalComponent from "./ModalComponent.js";
 
 function Navbar() {
   return (

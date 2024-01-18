@@ -1,4 +1,4 @@
-import Menu from "../components/Global/Menu.jsx";
+import Menu from "../components/Global/Menu";
 import { useLocation } from "react-router-dom";
 
 function AboutMusic() {

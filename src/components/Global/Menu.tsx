@@ -26,9 +26,7 @@ function Menu() {
           <img src={iconCommon} alt="Logo de uma Casa Residencial" />
           <Link to="/songs/common">Common</Link>
         </li>
-        <li
-          className={location.pathname === "/about" ? style.active : ""}
-        >
+        <li className={location.pathname === "/about" ? style.active : ""}>
           <img src={iconAbout} alt="Logo de uma Casa Residencial" />
           <Link to="/about">About</Link>
         </li>

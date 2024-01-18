@@ -1,4 +1,4 @@
-import Texto from "../components/NotFound/Texto.jsx";
+import Texto from "../components/NotFound/Texto";
 
 function NotFound() {
   return (
