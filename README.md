@@ -1,5 +1,7 @@
 ### Project Music Player
 
+O projeto podemos dizer que está praticamente finalizado, com conceito mobile first ainda falta boas mudanças no layout pra tablets e computadores! Com o tempo irei voltar e ir atualizando pequenas mudanças no visual e nas funcionalidades mas de momento, meu objetivo que era praticar com React.js, foi finalizado.
+
 ![Imagem da tela de Início](https://i.ibb.co/9c8LrLY/home.png)
 ![Imagem da tela de exibicao do perfil do usuário.](https://i.ibb.co/L5W1YxK/profile.jpg)
 ![Imagem da playlist de músicas.](https://i.ibb.co/LdXpRtH/playlist.jpg)
