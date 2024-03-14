@@ -22,3 +22,5 @@
     object-fit: cover;
     margin-bottom: 15px;
 }
+
+@media (min-width: 1024px) {}

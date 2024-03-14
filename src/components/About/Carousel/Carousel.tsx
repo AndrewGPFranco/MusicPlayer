@@ -29,7 +29,7 @@ export default function Carousel() {
       <button onClick={prevSlide}>
         <img src={prev} alt="Previous" />
       </button>
-      <img src={certificateImages[currentIndex]} alt={`Certificate ${currentIndex + 1}`} />
+      <img id='imgCarrossel' src={certificateImages[currentIndex]} alt={`Certificate ${currentIndex + 1}`} />
       <button onClick={nextSlide}>
         <img src={next} alt="Next" />
       </button>
