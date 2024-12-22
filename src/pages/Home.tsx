@@ -5,7 +5,7 @@ import Card from "../components/Home/Card";
 import Title from "../components/Global/Title";
 import Moment from "../components/Home/Moment";
 import FamousSingers from "../components/Home/FamousSingers";
-import style from "./Home.module.css";
+import style from "./Home/Home.module.css";
 
 function Home() {
   return (

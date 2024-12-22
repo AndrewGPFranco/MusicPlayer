@@ -5,11 +5,9 @@ export default function About() {
     <div className={style.container}>
       <h1>About</h1>
       <p>
-        Olá! Sou o Andrew, tenho 22 anos e sou um desenvolvedor versátil com um
-        apreço pelo frontend e o coração no backend! Minhas habilidades no
-        Front-End abrangem HTML, CSS, JavaScript, React Js, Next.js, Vue, Bootstrap e
-        Tailwind enquanto no Back-End, meus domínios são em PHP, Java, Laravel e
-        Spring.
+        Olá! Meu nome é Andrew, tenho 23 anos e atualmente trabalho como Desenvolvedor Fullstack na Elin Duxus.
+
+No meu papel como dev, utilizo Java e Spring para o desenvolvimento backend e Vue.js para algumas features. Além disso, trabalho com diversos bancos de dados, incluindo MySQL, PostgreSQL, Oracle e SQL Server. Para facilitar o desenvolvimento, uso Docker para gerenciar e configurar os bancos de dados com os quais estou trabalhando.
       </p>
       <div className={style.without}></div>
     </div>
